@@ -1,6 +1,9 @@
 
 exports.enhanceSchema = function(schema, options)
 {
+  if(options === undefined)
+    options={};
+  
   if (options.source === undefined)
   {
     options.source = 'title';

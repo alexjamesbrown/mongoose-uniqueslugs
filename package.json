@@ -18,6 +18,10 @@
   "dependencies": {
     "mongoose": "2.5.10"
   },
+  
+  "devDependencies": {
+    "should": "^4.1.0"
+  },
 
   "repository" :
   { 
